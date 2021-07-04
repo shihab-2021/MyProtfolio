@@ -2,10 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #272222;
+}
+
+p {
+    margin-bottom: 35px;
+    color: #daadad;
 }
 
 #top {
-    background-image: url(./img/top-banner.png);
+    background-image: url(./img/top-banner-removebg-preview.png);
     background-repeat: no-repeat;
 }
 
@@ -76,7 +82,7 @@ body {
 #bottom .half-width {
     margin-left: 5%;
     padding: 5%;
-    box-shadow: 5px 7px 40px grey;
+    box-shadow: 5px 7px 40px #01ffd07d;
 }
 
 #full-stack{
@@ -93,4 +99,44 @@ body {
 
 footer {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 100px; */
+    }
+    #top .half-width {
+        padding: 5px 35px;
+        margin-left: -15px;
+    }
+    .half-width {
+        width: 100%;
+    }
+    p {
+        padding-right: 8%;
+    }
+    #top img {
+        width: 80%;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .description h1 {
+        font-size: 40px;
+    }
+    #mid .half-width.description {
+        margin-left: 15px;
+    }
+    .hadding {
+        font-size: 40px;
+        margin-left: 15px;
+    }
+    #bottom .half-width {
+        margin-left: 4%;
+        margin-bottom: 5%;
+        padding: 2%;
+        box-shadow: 5px 7px 40px grey;
+        width: 90%;
+    }
 }
