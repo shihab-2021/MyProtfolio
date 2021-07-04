@@ -5,7 +5,7 @@ body {
 }
 
 #top {
-    background-image: url(/img/top-banner.png);
+    background-image: url(./img/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -48,13 +48,13 @@ body {
 }
 
 #mid {
-    background-image: url(/img/dream-bg.png);
+    background-image: url(./img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
 #bottom .container {
-    background-image: url(/img/exp-bg.png);
+    background-image: url(./img/exp-bg.png);
     background-repeat: no-repeat;
     margin-right: 4%;
 }
